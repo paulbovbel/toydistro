@@ -1,15 +1,15 @@
 ---
 flavours:
-  test:
-    description: default flavour
+  wall-e:
+    description: mobile trash compactor
     distributions:
       ros1:
         root_packages:
-          - test_meta
-      # ros2:
-      #   root_packages:
-      #     - rclcpp
-      #     - rclpy
+          - diff_drive_controller
+          - heart_of_gold
+      ros2:
+        root_packages:
+          - navigation2
 
 os:
   ubuntu:
